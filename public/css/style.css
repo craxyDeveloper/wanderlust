@@ -1,0 +1,109 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+ /* Navbar styling */
+.navbar{
+    height: 5rem;
+    background-color: azure;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+/* Footer styling */
+.f-info{
+    height: 8rem;
+    background-color:#ebebeb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:space-evenly;
+}
+.f-info-social,.f-info-links,.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-social i{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin: 0.15rem;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+/* Index styling cards */
+.listing-links{
+    text-decoration: none;
+}
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    font-weight: 400 !important;
+}
+.card-img-overlay i{
+   color: white;
+   font-weight: 200 !important;
+   font-size: 1.5rem !important;
+   opacity: 1;
+   margin-left: 95%;
+}
+.card-img-overlay{
+    opacity: 1;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: rgb(192, 187, 187);
+}
+.add-btn{
+    border: none;
+    background-color: #fe424d !important;
+}
+.edit-btn{
+    border: none;
+    background-color: #fe424d !important;
+}
+.card{
+    border: none !important;
+}
+.card-img-top{
+    border: none !important;
+    border-radius: 1rem !important;
+    object-fit: cover;
+    width: 100%;
+}
+.card-body p{
+    padding: 0;
+
+}
+.edit{
+      border: none;
+      background-color: #fe424d !important;
+}
+/* Review Card styling*/
+/*search bar*/
+
